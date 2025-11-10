@@ -1,0 +1,31 @@
+# .gitignore for macOS DNS Manager
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# State files
+.vpn-dns-state
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-*
+
+# Python cache (if any future additions)
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.backup
